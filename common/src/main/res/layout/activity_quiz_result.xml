@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:background="#EACECE"
+    tools:context=".QuizResult">
+
+<LinearLayout
+    android:id="@+id/linearl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#EACECE"
+
+        android:src="@drawable/firework" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#EACECE"
+
+        android:src="@drawable/firework" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#EACECE"
+
+        android:src="@drawable/firework" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#EACECE"
+
+        android:src="@drawable/firework" />
+</LinearLayout>
+    <TextView
+        android:id="@+id/tv_complete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_below="@+id/linearl"
+        android:text="You've successfully completed a quiz"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        >
+
+
+
+
+    </TextView>
+<LinearLayout
+    android:layout_below="@+id/tv_complete"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/correct_answer"
+    android:textColor="#000"
+    android:text="Correct answer: 0"
+    android:textSize="18sp"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/incorrect_answer"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:text="Incorrect answer: 0"
+
+
+        />
+
+</LinearLayout>
+
+
+</RelativeLayout>
